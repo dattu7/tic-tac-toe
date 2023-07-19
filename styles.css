@@ -3,10 +3,14 @@ body{
     position: absolute;
     text-align: center;
     background-color: rgb(243, 233, 233);
+    background-image: url("");
 }
 section{
     text-align: center;
     padding: 50px;
+    width: 1400px;
+    border: 2px solid black;
+    border-width: 10px;
 }
 .game--container{
     display: grid;
@@ -15,6 +19,7 @@ section{
     margin: 50px auto;
     /* grid-gap: 1px; */
 }
+
 .cell{
     font-family: 'Permannent Marker', cursive;
     width: 100px;
@@ -23,11 +28,18 @@ section{
     cursor: pointer;
     font-size: 60px;
 }
+.cell:hover{
+    background-color: rgb(202, 178, 147);
+}
 button{
     height: 50px;
     width: 100px;
     border-radius: 50%;
+    background-color: rgb(202, 178, 147);
 }
 button:hover{
     background-color: rgb(9, 224, 153);
 }
+/* h1{
+    font-size: 37px;
+} */
